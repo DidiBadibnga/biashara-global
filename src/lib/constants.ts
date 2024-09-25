@@ -4,7 +4,6 @@ export const navLinks = [
     route: "/",
     name: "Home",
   },
-
   {
     route: "/about",
     name: "About",
@@ -17,12 +16,7 @@ export const navLinks = [
     route: "/projects",
     name: "Projects",
   },
-  {
-    route: "/contact",
-    name: "Contact",
-  },
 ];
-
 
 type Service = {
   name: string;
@@ -31,53 +25,53 @@ type Service = {
 
 export const services: Service[] = [
   {
-    name: "Architectural Design",
+    name: "Conception Architecturale",
     description:
-      "Providing innovative and sustainable design solutions for residential and commercial buildings, ensuring functionality and aesthetic appeal.",
+      "Fournir des solutions de conception innovantes et durables pour les bâtiments résidentiels et commerciaux, en assurant fonctionnalité et esthétique.",
   },
   {
-    name: "Construction Management",
+    name: "Gestion de Construction",
     description:
-      "Managing projects from start to finish, ensuring on-time delivery, quality control, and adherence to budget throughout the construction process.",
+      "Gérer les projets de la planification à la réalisation, en garantissant la livraison dans les délais, le contrôle qualité et le respect du budget tout au long du processus de construction.",
   },
   {
-    name: "Interior Design",
+    name: "Design Intérieur",
     description:
-      "Crafting bespoke interior designs tailored to clients’ preferences and needs, creating functional, aesthetically pleasing spaces.",
+      "Créer des designs d'intérieur sur mesure, adaptés aux préférences et aux besoins des clients, en concevant des espaces fonctionnels et esthétiques.",
   },
   {
-    name: "Renovation & Remodeling",
+    name: "Rénovation & Réaménagement",
     description:
-      "Transforming existing structures with modern upgrades and redesigns, from small renovations to full-scale remodeling projects.",
+      "Transformer des structures existantes avec des rénovations modernes et des réaménagements, allant des petites rénovations aux projets de réaménagement complet.",
   },
   {
-    name: "Site Planning",
+    name: "Planification de Site",
     description:
-      "Providing comprehensive site assessments and planning services, optimizing land use for residential or commercial development.",
+      "Fournir des services complets d'évaluation et de planification des sites, en optimisant l'utilisation des terrains pour des développements résidentiels ou commerciaux.",
   },
   {
-    name: "Structural Engineering",
+    name: "Ingénierie Structurelle",
     description:
-      "Delivering expert structural engineering services to ensure buildings are safe, durable, and compliant with all necessary codes and regulations.",
+      "Offrir des services d'ingénierie structurelle de pointe pour assurer la sécurité, la durabilité et la conformité aux normes des bâtiments.",
   },
   {
-    name: "Green Building Solutions",
+    name: "Solutions de Construction Écologique",
     description:
-      "Implementing eco-friendly construction practices, focusing on energy-efficient designs, sustainable materials, and reducing environmental impact.",
+      "Mettre en œuvre des pratiques de construction respectueuses de l'environnement, en se concentrant sur des conceptions écoénergétiques, des matériaux durables et la réduction de l'impact environnemental.",
   },
   {
-    name: "General Contracting",
+    name: "Entrepreneur Général",
     description:
-      "Offering a full range of general contracting services, coordinating all aspects of the construction process, including subcontractors and suppliers.",
+      "Proposer une gamme complète de services de contractance générale, en coordonnant tous les aspects du processus de construction, y compris les sous-traitants et les fournisseurs.",
   },
   {
-    name: "Custom Home Building",
+    name: "Construction de Maisons sur Mesure",
     description:
-      "Specializing in custom-built homes, providing tailored design and construction solutions to meet clients’ specific visions and lifestyles.",
+      "Spécialisé dans la construction de maisons sur mesure, fournissant des solutions de conception et de construction adaptées aux visions et aux modes de vie spécifiques des clients.",
   },
   {
-    name: "Commercial Construction",
+    name: "Construction Commerciale",
     description:
-      "Building functional and efficient commercial properties, from office buildings to retail spaces, with a focus on high-quality craftsmanship.",
+      "Construire des propriétés commerciales fonctionnelles et efficaces, allant des immeubles de bureaux aux espaces de vente, avec un accent sur un artisanat de haute qualité.",
   },
 ];
