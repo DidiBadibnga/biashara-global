@@ -3,7 +3,7 @@ import { Rule } from "postcss";
 import { defineType, defineField } from "sanity";
 
 export const memberType = defineType({
-  title: "team Member",
+  title: "Team Member",
   name: "member",
   type: "document",
   fields: [
